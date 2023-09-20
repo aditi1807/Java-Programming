@@ -59,7 +59,7 @@ public class Linked_List{
         b=sc.nextInt();
         c=sc.nextInt();
         d=sc.nextInt();
-        Linked_List list=new Linked_List();
+        
         add_at_last(a);
         add_at_last(b);
         add_at_last(c);
