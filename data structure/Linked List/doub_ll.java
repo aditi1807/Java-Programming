@@ -42,7 +42,7 @@ public class doub_ll {
         head.prev=null;
     }
     public static void main(String[] args){
-        Linked_List list=new Linked_List();
+        
         add_at_begin(3);
         add_at_begin(2);
         add_at_end(4);

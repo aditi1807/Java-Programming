@@ -1,3 +1,4 @@
+package oops;
 class Shape{
     public void area(){
         System.out.println("the shape is triangle");
@@ -8,9 +9,14 @@ class triangle extends Shape{
         System.out.println(l*h);
     }
 }
-    public class single_inheritence {
+class equitriangle extends triangle{
+    public void area(int l,int s,int h){
+        System.out.println(s*l*h);
+    }
+}
+    public class multilevel_inheritence {
     public static void main(String[] args){
-        triangle t1=new triangle();
-        t1.area(3,7);
+        equitriangle t1=new equitriangle();
+        t1.area(3,7,4);
     }
 }
