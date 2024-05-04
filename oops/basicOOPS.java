@@ -1,5 +1,5 @@
 package oops;
-/*lass Student{
+class Student{
     String name;
     int age;
     public void printing(){ // function or method
@@ -17,8 +17,7 @@ package oops;
             s1.printing();
         }
     }
-    */
-    /* class Student{
+    class Student{
     String name;
     int age;
     public void printing(){ // function or method
@@ -34,7 +33,6 @@ package oops;
             s1.printing();
         }
     }
-    */
     class Student{
     String name;
     int age;
